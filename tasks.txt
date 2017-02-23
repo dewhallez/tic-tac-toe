@@ -1,0 +1,10 @@
+
+Eliot - Create main.py, import functions, declare global variables, main script
+Danny - Go through a few Automate the Boring Stuff with Python lessons, add new features to Tic Tac Toe game
+Tamique - create win algorithm
+John - Draw 2d grid with player inputs
+Paul - ask for user input in beginning
+Duncan - get user input for each turn, convert 1-9 to 2d coordinate
+
+
+
