@@ -1,6 +1,4 @@
 def Victory(Board):
-    Win = ' '
-    
     for i in range(3):
         if (Board[i][0] == Board[i][1] == Board[i][2]):
             return Board[i][0]
