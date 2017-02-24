@@ -9,7 +9,6 @@ def startGame(playerOne,playerTwo):
   while p1piece not in ['x','X','o','O']:
       print ('Invalid choice.')
       p1piece = str(input('X or O?: '))
-      playerOne['piece'] = p1piece
 
   if p1piece in ['x','X']:
        p1piece = 'X'
