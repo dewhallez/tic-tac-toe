@@ -17,9 +17,12 @@ startGame(playerOne, playerTwo)
 
 # Initialize empty 2-Dimensional Array
 for x in range(width):
+    
     row = []
+    
     for y in range(height):
         row.append('_')
+    
     board.append(row)
 
 # Game loop
