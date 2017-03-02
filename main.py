@@ -3,7 +3,8 @@
 
 # Module imports
 import algorithm
-from startInput import startGame
+from print_grid import printGrid
+from start_input import startGame
 import time
 
 # Player Dictionaries and Global Variables
