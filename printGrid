@@ -1,6 +1,9 @@
-def printGrid(play[][]):
-  print(' ' + play[0][0] + ' | ' + play[0][1] + ' | ' + play[0][2] + ' ')
-  print("---+---+---")
-  print(' ' + play[1][0] + ' | ' + play[1][1] + ' | ' + play[1][2] + ' ')
-  print("---+---+---")
-  print(' ' + play[2][0] + ' | ' + play[2][1] + ' | ' + play[2][2] + ' ')
+def printGrid(board):
+    # Draw the game board
+    for x in range(width):
+        for y in range(height):
+            if (y < 2):
+                print(board[x][y], end='|')
+            else:
+                print(board[x][y], end='')
+        print("")
