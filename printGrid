@@ -1,4 +1,4 @@
-def printGrid(board):
+def printGrid(board, width, height):
     # Draw the game board
     for x in range(width):
         for y in range(height):
