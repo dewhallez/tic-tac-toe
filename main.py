@@ -17,21 +17,18 @@ startGame(playerOne, playerTwo)
 
 # Initialize empty 2-Dimensional Array
 for x in range(width):
-    
+
     row = []
-    
+
     for y in range(height):
         row.append('_')
-    
+
     board.append(row)
 
 # Game loop
+#test comment
 while True:
-    
+
     printGrid(board, width, height);
-    
+
     nextMove = input("Player " + playerOne['name'] + ": Next move?")
-
-
-
-
